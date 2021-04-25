@@ -1,0 +1,36 @@
+[Ll]ibrary/
+[Tt]emp/
+[Оо]Би Джей/
+[Bb]uild/
+[Bb]uilds/
+Активы/AssetStoreTools*
+
+# Каталог кэша Visual Studio
+.против/
+
+# Автогенерированные файлы решений и проектов VS/MD/Consulo
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.пользователь
+*.userprefs
+*.pidb
+*.booproj
+*.свд
+*.pdb
+*.opendb
+
+# Unity3D генерирует мета-файлы
+*.pidb.meta
+*.pdb.meta
+
+# Unity3D Сгенерированный Файл Для Отчетов О Сбоях
+sysinfo.txt
+
+# Сборки
+*.apk
+*.unitypackage
