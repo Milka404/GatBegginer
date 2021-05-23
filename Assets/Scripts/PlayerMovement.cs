@@ -1,9 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public VariableJoystick variableJoystick;
     public float turnSpeed = 20f;
 
     Animator m_Animator;
@@ -19,8 +18,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        float horizontal = variableJoystick.Horizontal; //  Input.GetAxis("Horizontal");
+        float vertical = variableJoystick.Vertical; // Input.GetAxis("Vertical");
 
         m_Movement.Set(horizontal, 0f, vertical);
         m_Movement.Normalize();
