@@ -31,6 +31,6 @@ public class PlayerScore : MonoBehaviour
 
     void SetScore(int count)
     {
-        text.text = "Score: " + count;
+        text.text =  count + "Coin " ;
     }
 }
